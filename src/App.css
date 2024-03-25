@@ -1,0 +1,89 @@
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: #AAD7D9;
+  border: solid 2px rgb(167, 166, 166);
+  border-radius: 20px;
+}
+.head {
+  height: 5%;
+  font-size: 30px;
+  margin: 1%;
+}
+
+.items-container {
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+  display: flex;
+  justify-content: start;
+  gap: 4%;
+  flex-wrap: wrap;
+  margin: 0 2% 0 2%;
+}
+.item {
+  width: 20%;
+  height: 60%;
+  background-color: #E5E1DA;
+  padding: 2px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-pic {
+  width: 90%;
+  height: 55%;
+  padding: 2%;
+  border-radius: 5%;
+  align-content: start;
+}
+
+.title {
+  padding: 2%;
+  font-weight: 700;
+}
+
+.price {
+  padding: 2%;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+.price-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pagination {
+  margin: 2%;
+}
+
+.container-pagination {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.prev-class {
+  padding: 8px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.prev-class:hover {
+  background-color: #AAD7D9;
+  color: white;
+}
+
+.active-link {
+  background-color: #AAD7D9;
+}
